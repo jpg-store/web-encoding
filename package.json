@@ -1,5 +1,5 @@
 {
-  "name": "web-encoding",
+  "name": "@jpg-store/web-encoding",
   "version": "1.0.0",
   "description": "TextEncoder and TextDecoder APIs from Encoding Standard APIs in a universal package",
   "keywords": [
@@ -11,10 +11,14 @@
   "module": "./src/lib.mjs",
   "browser": "./src/lib.js",
   "types": "./src/lib.d.ts",
+  "files": [
+    "src"
+  ],
   "exports": {
     ".": {
       "import": "./src/lib.mjs",
-      "require": "./src/lib.js"
+      "require": "./src/lib.js",
+      "types": "./src/lib.d.ts"
     }
   },
   "repository": {
